@@ -1,0 +1,47 @@
+.light{
+    background-color: rgb(204, 185, 143);
+}
+body{
+    display:block;
+    margin: 0px;
+    font-family: Tahoma;
+    background-image: url(ultimate-guide-background-30b2f0e5f8f01f5277e93eb38fb836068ee4310aefc2559470d3defe512ddfd0.jpg);
+    background-repeat: no-repeat;
+}
+.dark{
+    background-color: rgb(45, 3, 141);
+}
+.popup-box {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    height: 30vh;
+    width: 40vw;
+    background-color: #E1EF7E;
+    border: 2px solid  #004FE1;
+    border-radius: 5px;
+    text-align: center;
+}
+.welcome-message{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btn:hover{
+    background: #FF822E;
+    
+}
+.d-none{
+    display: none;
+}

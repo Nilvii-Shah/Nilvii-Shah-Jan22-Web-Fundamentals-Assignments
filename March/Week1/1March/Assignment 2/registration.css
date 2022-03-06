@@ -1,0 +1,117 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    
+}
+.img{
+    /* margin-top: 80px; */
+    display: flex;
+    justify-content:left;
+    /* align-items: center; */
+    height: 450px;
+}
+.para{
+    display: block;
+}
+.email{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    text-align: center; 
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+     
+}
+.username{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+}
+#password{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+}
+.terms{
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    display: flex;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: large;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.btn:hover{
+    background:  #ef629f;
+    cursor: pointer;
+}
+.checkbox:checked ~ .btn{
+    background-color: #ffc3a0;
+}
+.below{
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+.icons{
+    position: relative;
+    left: 100px;
+    
+}
+.icons img{
+    padding-left: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    
+}
+.member{
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+    font-size: large;
+    
+}
+.login{
+    padding-left: 10px;
+}
+#confirm-password{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+}
+.red{
+    outline: 3px solid red;
+    font-size: large;
+    font-weight: bold;
+}
