@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+#instagram{
+  width: 360px;
+  height: 600px;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  position: relative;
+  margin: auto;
+}
+#profile img{
+    width: 360px;
+    height: 540px;
+}
+#heart img{
+    width: 360px;
+    height: 540px;
+}
+#reel img{
+    width: 360px;
+    height: 540px;
+}
+#search img{
+    width: 360px;
+    height: 540px;
+    
+}
+footer img{
+    height: 20px;
+    display: inline;
+    padding: 16px;   
+}
+/* #profile{
+    display: none;
+}
+#heart{
+    display: none;
+}
+#reel{
+    display: none;
+}
+#search{
+    display: none; 
+} */
+#home img{
+    width: 360px;
+    height: 540px;
+}
+footer button{
+    height: 50px;
+    width: 25x;
+    background: transparent;
+    
+    
+
+}
+
+
+
+
